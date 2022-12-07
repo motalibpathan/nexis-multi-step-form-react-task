@@ -44,7 +44,6 @@ const Signup = () => {
         navigate("/attendance");
       })
       .catch((err) => {
-        console.log(err);
         setLoading(false);
       });
   };
